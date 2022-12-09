@@ -7,11 +7,11 @@ export default function ServicesComp(props)
 <div className="relative w-[100%] lg:h-fit h-fit pb-10 mb-20  ml-auto mr-auto  dark:border-white mt-[15vh]" style={{backgroundImage:"url('/images/service-bg.jpg')"}}>
     <div className="float-right">   <div className="flex flex-col h-[10vh] ">
               <div className='flex h-fit mr-5 ml-auto'>
-              <div className={'md:w-72 w-0 h-[5px] inline-block justify-end mt-5 ml-4 mr-3 ' +  'bg-white'}></div>
+              <div className={'lg:w-72 w-[48vw] h-[5px] inline-block justify-end mt-5 ml-4 mr-3 ' +  'bg-white'}></div>
         <p className={'font-bold text-4xl font-sans text-white '}>Services</p>
         
         </div>
-        <div  className="float-right text-xl text-white font-[poppins] mr-5 mb-5 ml-auto">There are many variations of passages of Lorem Ipsum available, but the majority</div>
+        <div  className="text-xl text-white font-[poppins] mr-5 mb-5 ml-1">There are many variations of passages of Lorem Ipsum available, but the majority</div>
             
         </div></div>
 

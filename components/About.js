@@ -2,8 +2,8 @@ export default function AboutComp(props)
 {
    
 return(
-    <div className='flex ml-auto mr-auto w-[100%]  flex-row mt-20 mb-20 flex-wrap lg:flex-nowrap mt-[15vh]'>
-<div className='mt-[10%] lg:w-[50%] w-[100%]'>
+    <div className='flex ml-auto mr-auto w-[90%] flex-row mt-[10%] mb-20 flex-wrap lg:flex-nowrap '>
+<div className='mt-[10%] lg:w-[50%] w-[95%] ml-auto mr-auto '>
 <p className='text-black text-opacity-30 block lg:text-lg text-3xl font-semibold mb-[2%]'>ABOUT</p>
 <div className='flex'>
 <p className='text-black font-bold text-2xl font-sans'>WEB ELEMENTS</p>

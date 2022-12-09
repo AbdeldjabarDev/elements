@@ -38,7 +38,10 @@ export default function Carouseler(props) {
     return (
       <div className={" " + props.tailwind}>
         <div className="flex flex-col lg:flex-row">
-          {props.before}
+        <div className='flex flex-col z-10 h-fit w-[90%] ml-auto  mr-auto md:w-[60%] lg:w-[45%] lg:mt-[50%]  lg:ml-32'>
+  <p className='lg:text-3xl text-3xl font-bold font-sans text-white'>DISCOBERING SOMETHING BRAND NEW</p>
+  <p className='lg:text-lg text-3xl font-sans  text-white w-[100%] mb-[8%]'>It is a long established fact that reader will be distracted by</p>
+</div>
           <div
             className="z-20"
             onClick={(e) => {

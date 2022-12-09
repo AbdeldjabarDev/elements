@@ -24,7 +24,7 @@ export default function Carouseler(props) {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-    ></div>,
+     key={1}></div>,
     <div
       className="lg:w-10 lg:h-10 w-[50px] lg:absolute h-[50px] lg:mt-0  lg:ml-0 lg:top-[58%] lg:left-[47.5vw] ml-[40%] translate-y-[-50%] rounded-full bg-white flex content-center absolute  z-20"
       style={{
@@ -32,7 +32,7 @@ export default function Carouseler(props) {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-    ></div>,
+    key={2}></div>,
   ];
   if (controls) {
     return (

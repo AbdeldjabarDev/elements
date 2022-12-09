@@ -3,16 +3,16 @@ export default function Carouseler(props) {
   let conRef = useRef();
   let [itemIndex, setItemIndex] = useState(0);
   let children = [
-    <div className="w-full h-full ">
+    <div className="w-full h-full " key={1}>
       <img src="/images/slider-img.jpg" className="w-full h-full -z-10"></img>
     </div>,
-    <div className="w-full h-full ">
+    <div className="w-full h-full " key={2}>
       <img src="/images/slider-img.jpg" className="w-full h-full -z-10"></img>
     </div>,
-    <div className="w-full h-full  ">
+    <div className="w-full h-full  "  key={3}>
       <img src="/images/slider-img.jpg" className="w-full h-full -z-10"></img>
     </div>,
-    <div className="w-full h-full  ">
+    <div className="w-full h-full  "  key={4}>
       <img src="/images/slider-img.jpg" className="w-full h-full -z-10"></img>
     </div>,
   ];
